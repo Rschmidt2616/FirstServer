@@ -1,7 +1,7 @@
 var http = require('http');
 var fs = require('fs');
 var path = require('path');
-var util= require('util');
+var util = require('util');
 
 var ipaddr = process.env.OPENSHIFT_NODESJS_IP || "127.0.0.1";
 
