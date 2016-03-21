@@ -3,7 +3,7 @@ var fs = require('fs');
 var path = require('path');
 var util= require('util');
 
-var ipaddr = process.env.OPENSHIFT_NODEJS_IP || "127.0.0.1";
+var ipaddr = process.env.OPENSHIFT_NODESJS_IP || "127.0.0.1";
 
 var port = process.env.OPENSHIFT_NODESJS_PORT || 3000;
 
